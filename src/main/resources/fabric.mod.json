@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "beskarmod",
+	"version": "${version}",
+	"name": "Beskar Mod",
+	"description": "This is a mod that adds Beskar to the game.",
+	"authors": [
+		"Thibault Savenkoff"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/beskarmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"lu.ts.beskarmod.BeskarMod"
+		],
+		"client": [
+			"lu.ts.beskarmod.BeskarModClient"
+		],
+		"fabric-datagen": [
+			"lu.ts.beskarmod.BeskarModDataGenerator"
+		]
+	},
+	"mixins": [
+		"beskarmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
