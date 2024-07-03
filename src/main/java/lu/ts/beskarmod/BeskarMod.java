@@ -1,5 +1,8 @@
 package lu.ts.beskarmod;
 
+import lu.ts.beskarmod.block.ModBlocks;
+import lu.ts.beskarmod.item.ModItemGroups;
+import lu.ts.beskarmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,9 @@ public class BeskarMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Here to serve you, Mandalorian!");
+		ModItemGroups.registerModItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

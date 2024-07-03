@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "beskarmod:block/beskar_block",
+    "beskarmod:block/raw_beskar_block"
+  ]
+}

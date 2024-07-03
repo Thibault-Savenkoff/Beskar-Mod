@@ -1,0 +1,9 @@
+{
+  "item.beskarmod.beskar_ingot": "Beskar Ingot",
+  "item.beskarmod.raw_beskar": "Raw Beskar",
+
+  "block.beskarmod.beskar_block": "Block of Beskar",
+  "block.beskarmod.beskar_block": "Block of Raw Beskar",
+
+  "itemGroup.beskarmod.beskar_group": "Beskar Mod"
+}
