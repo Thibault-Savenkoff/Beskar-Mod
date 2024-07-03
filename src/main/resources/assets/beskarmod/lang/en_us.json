@@ -3,7 +3,8 @@
   "item.beskarmod.raw_beskar": "Raw Beskar",
 
   "block.beskarmod.beskar_block": "Block of Beskar",
-  "block.beskarmod.beskar_block": "Block of Raw Beskar",
+  "block.beskarmod.raw_beskar_block": "Block of Raw Beskar",
+  "block.beskarmod.beskar_ore": "Block Ore",
 
   "itemGroup.beskarmod.beskar_group": "Beskar Mod"
 }

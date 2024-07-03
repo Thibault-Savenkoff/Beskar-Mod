@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beskarmod:beskar_ingot"
+    }
+  },
+  "result": {
+    "id": "beskarmod:beskar_block",
+    "count": 1
+  }
+}

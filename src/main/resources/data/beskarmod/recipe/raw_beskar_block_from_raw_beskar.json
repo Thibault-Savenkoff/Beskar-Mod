@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "beskarmod:raw_beskar_block"
+    }
+  ],
+  "result": {
+    "id": "beskarmod:raw_beskar",
+    "count": 9
+  }
+}

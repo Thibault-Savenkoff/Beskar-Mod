@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_BESKAR);
                         entries.add(ModBlocks.BESKAR_BLOCK);
                         entries.add(ModBlocks.RAW_BESKAR_BLOCK);
+                        entries.add(ModBlocks.BESKAR_ORE);
                     }).build());
 
 
